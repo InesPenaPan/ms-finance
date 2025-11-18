@@ -43,12 +43,10 @@ docker compose up --build -d
 ```
 3. **Acceder a la API**: El microservicio estará accesible en el puerto `8080` (definido en el docker-compose.yml). Utiliza tu navegador o una herramienta como cURL o Postman para realizar las siguientes peticiones:
 
-```bash
-http://127.0.0.1:8000/finance/AAPL
-```
-```bash
-http://127.0.0.1:8000/news/AAPL
-```
+| Endpoint | URL Ejemplo |
+| :--- | :--- |
+| Ratios Financieros | `http://127.0.0.1:8000/finance/AAPL` |
+| Noticias | `http://127.0.0.1:8000/news/AAPL` |
 
 ### Ejemplos de Tickers
 

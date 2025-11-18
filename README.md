@@ -2,8 +2,6 @@
 
 Este microservicio ofrece una API cosntruida con **FastAPI** para obtener y calcular métricas financieras clave, ratios de liquidez y solvencia, y noticias bursátiles recientes utilizando `yfinance` como fuente de datos.
 
----
-
 ## 💻 Funcionalidades Principales
 
 El microservicio expone dos endpoints principales:
@@ -31,8 +29,6 @@ Este endpoint procesa la información de los estados financieros de una empresa,
 ### 2. 📈 Obtener Noticias Bursátiles (`/news/{ticker}`)
 
 Este endpoint recupera los titulares de noticias más recientes directamente desde la fuente para un símbolo bursátil específico.
-
----
 
 ## ⚡ Ejuctar el servicio
 

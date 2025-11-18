@@ -6,7 +6,7 @@ Este microservicio ofrece una API cosntruida con **FastAPI** para obtener y calc
 
 El microservicio expone dos endpoints principales:
 
-### 1. 📈 Obtener Ratios Financieros y Crecimiento (`/finance/{ticker}`)
+### 1. Obtener Ratios Financieros y Crecimiento (`/finance/{ticker}`)
 
 Este endpoint procesa la información de los estados financieros de una empresa, para ofrecer métricas comparativas:
 
@@ -26,7 +26,7 @@ Este endpoint procesa la información de los estados financieros de una empresa,
 #### Crecimiento
 * **Tasa de crecimiento** `quarterly_revenue_growth`: Mide el cambio porcentual en los ingresos totales (Total Revenue) de una empresa de un trimestre al trimestre inmediatamente anterior. Es el indicador clave de si el negocio está acelerando o desacelerando su capacidad para generar ventas.
 
-### 2. 📈 Obtener Noticias Bursátiles (`/news/{ticker}`)
+### 2. Obtener Noticias Bursátiles (`/news/{ticker}`)
 
 Este endpoint recupera los titulares de noticias más recientes directamente desde la fuente para un símbolo bursátil específico.
 
@@ -49,3 +49,17 @@ http://127.0.0.1:8000/finance/AAPL
 ```bash
 http://127.0.0.1:8000/news/AAPL
 ```
+
+### Ejemplos de Tickers
+
+Utiliza los siguientes símbolos bursátiles para probar tu API.
+
+| Ticker | Empresa |
+| :--- | :--- |
+| **AAPL** | Apple Inc. |
+| **MSFT** | Microsoft Corp. |
+| **BBVA.MC** | Banco Bilbao Vizcaya Argentaria |
+| **SAN.MC** | Banco Snatander |
+| **ITX.MC** | Industria de Diseño Textil (Inditex) |
+| **IBE.MC** | Iberdrola |
+| **TEF.MC** | Telefónica |

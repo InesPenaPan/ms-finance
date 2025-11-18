@@ -36,7 +36,7 @@ Este endpoint recupera los titulares de noticias más recientes directamente des
 
 1. **Situarse en el Directorio**: Abre tu terminal y navega hasta el directorio raíz del proyecto.
 
-2. **Construir e iniciar**: Construir e Iniciar: Ejecuta el siguiente comando. La instrucción `--build` garantiza que tu imagen se construya con el código más reciente antes de iniciar el contenedor.
+2. **Construir e iniciar**: Ejecuta el siguiente comando. La instrucción `--build` garantiza que tu imagen se construya con el código más reciente antes de iniciar el contenedor.
 
 ```bash
 docker compose up --build -d

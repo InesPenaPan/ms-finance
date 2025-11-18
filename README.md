@@ -1,4 +1,4 @@
-# 💰 Microservicio de API de Finanzas
+# 💰 Microservicio de Finanzas
 
 Este microservicio ofrece una API cosntruida con **FastAPI** para obtener y calcular métricas financieras clave, ratios de liquidez y solvencia, y noticias bursátiles recientes utilizando `yfinance` como fuente de datos.
 

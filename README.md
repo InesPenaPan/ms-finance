@@ -52,7 +52,7 @@ http://127.0.0.1:8000/news/AAPL
 
 ### Ejemplos de Tickers
 
-Utiliza los siguientes símbolos bursátiles para probar tu API.
+Utiliza los siguientes símbolos bursátiles para probar tu API:
 
 | Ticker | Empresa |
 | :--- | :--- |

@@ -1,5 +1,4 @@
 version: '3.8'
-
 services:
   finance-api:
     build: .
@@ -7,6 +6,8 @@ services:
       - "8080:8000"
     restart: always
     container_name: finance_api_container
+    environment:
+      - EUREKA_URL=http://eureka-server:8761
     networks:
       - platform-network
 

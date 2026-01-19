@@ -3,3 +3,4 @@ uvicorn
 pydantic
 yfinance
 numpy
+py-eureka-client

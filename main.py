@@ -1,4 +1,6 @@
 from fastapi import FastAPI, HTTPException, status, Query
+from py_eureka_client import eureka_client
+
 from models.model_finance import FinancialData
 from models.model_news import StockNewsResponse
 from calculate_ratios import calculate_ratios, calculate_growth_history 
@@ -8,6 +10,14 @@ from retrieve_news import fetch_yfinance_news
 app = FastAPI(
     title="Finance API Microservice",
 )
+
+@app.on_event("startup")
+async def startup_event():
+    await eureka_client.init_async(
+        eureka_server="http://eureka-server:8761/eureka",
+        app_name="ms-finance",
+        instance_port=8000
+    )
 
 # ----------------------------------------------------------------------
 # Financial Data Endpoint

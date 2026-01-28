@@ -21,22 +21,12 @@ El microservicio está desarrollado con las siguientes tecnologías y librerías
 
 Calcula ratios financieros y métricas de crecimiento a partir de los estados contables de la entidad.
 
-#### Liquidez y solvencia
-
 * **Ratio Rápido** `current_ratio`: Mide la solvencia inmediata sin depender de inventarios.
 * **Ratio Circulante** `current_ratio`: Evalúa la capacidad de cubrir deudas a corto plazo con activos líquidos.
-* **Deuda sobre Capital** `debt_to_equity` es el indicador directo del apalancamiento financiero. 
-
-
-* **Tracción**: `quarterly_revenue_growth` mide la variación porcentual de ventas entre trimestres consecutivos. 
-
-#### Performance
-
+* **Deuda sobre Capital** `debt_to_equity`: Es el indicador directo del apalancamiento financiero. 
+* **Tracción**: `quarterly_revenue_growth`: Mide la variación porcentual de ventas entre trimestres consecutivos. 
 * **Capitalización de Mercado** `market_cap`: Indica el valor total de la empresa en bolsa.
-
-#### Tracción
 * **Tasa de crecimiento** `quarterly_revenue_growth`: Mide la variación porcentual de ventas entre trimestres consecutivos.
-
 
 ### Agregación de Noticas en Tiempo Real
 

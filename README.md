@@ -64,7 +64,6 @@ Una vez levantado el contenedor, la API estará disponible en el puerto `8080`. 
 ├── models/
 │   ├── model_finance.py       # Esquemas de datos para métricas financieras
 │   └── model_news.py          # Esquemas de datos para noticias
-├── .gitignore                 # Archivos excluidos del control de versiones
 ├── calculate_ratios.py        # Lógica de cálculo de indicadores financieros
 ├── docker-compose.yml         # Orquestación del contenedor
 ├── Dockerfile                 # Configuración de la imagen Docker

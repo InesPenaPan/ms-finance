@@ -35,8 +35,11 @@ Calcula ratios financieros y métricas de crecimiento a partir de los estados co
 Recupera en tiempo real noticias vinculadas al símbolo bursátil. Devulve una colección `latest_headline` donde cada noticia contiene:
 
 * `title`: Titular de la noticia.
-
-
+* `summary`: Breve extracto o resumen del contenido.
+* `link`: URL directa a la fuente original.
+* `publisher`: Nombre del medio de comunicación.
+* `publish_date`: Fecha y hora de publicación.
+* `thumbnail_url`: Enlace a la imagen destacada (si está disponible).
 
 ## ⚡ Ejuctar el servicio
 

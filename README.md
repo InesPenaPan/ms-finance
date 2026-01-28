@@ -21,6 +21,8 @@ El microservicio está desarrollado con las siguientes tecnologías y librerías
 
 Calcula ratios financieros y métricas de crecimiento a partir de los estados contables de la entidad.
 
+* **Ratios de liquidez**: `current_ratio` (capacidad de pago general) y `quick_ratio` (capacidad de pago inmediata).
+
 
 
 

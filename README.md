@@ -1,5 +1,5 @@
 # 💰 Microservicio de Finanzas
-**Repositorio integrante del Trabajo de Fin de Máster (TFM)** > **Programa:** Máster en Sistemas de Software Inteligentes e Interactivos (MSSSI)
+**Componente del Trabajo de Fin de Máster (TFM)** > *Máster en Ingeniería de Software*
 
 Microservicio construido con **FastAPI** que automatiza la ingesta y procesamiento de datos de Yahoo! Finance (`yfinance). El sistema calcula indicadores clave de solvencia, liquidez y apalancamiento de empresas cotizadas, además de monitorizar el crecimiento de ingresos trimestrales y agregar noticias bursátiles en tiempo real.
 

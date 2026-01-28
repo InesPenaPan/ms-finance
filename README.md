@@ -21,18 +21,16 @@ El microservicio está desarrollado con las siguientes tecnologías y librerías
 
 Calcula ratios financieros y métricas de crecimiento a partir de los estados contables de la entidad.
 
-* **Ratios de liquidez**: `current_ratio` (capacidad de pago general) y `quick_ratio` (capacidad de pago inmediata).
+* **Liquidez**: `current_ratio` mide la solvencia inmediata sin depender de inventarios.  y `quick_ratio` evalúa la capacidad de cubrir deudas a corto plazo con activos líquidos. 
+* **Estrcutura de capital**: `debt_to_equity` es el indicador directo del apalancamiento financiero. 
+* **Valoración de mercado**: `market_cap` indica el valor total de la empresa en bolsa.
+* **Tracción**: `quarterly_revenue_growth` mide la variación porcentual de ventas entre trimestres consecutivos. 
 
 
 
 
-#### Liquidez y Solvencia
 
-* **Ratio Circulante** `current_ratio`: Mide la capacidad de la empresa para cubrir sus pasivos a corto plazo usando todos sus activos circulantes.
 
-* **Ratio Rápido** `quick_ratio`: Mide la capacidad de pago más inmediata, excluyendo el inventario de los activos circulantes.
-
-* **Deuda a Capital** `debt_to_equity`: Mide el apalancamiento financiero. Indica la proporción de la financiación de la empresa que proviene de la deuda frente al capital propio.
 
 
 #### Performance

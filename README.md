@@ -24,7 +24,7 @@ Calcula ratios financieros y métricas de crecimiento a partir de los estados co
 * **Ratio Rápido** `current_ratio`: Mide la solvencia inmediata sin depender de inventarios.
 * **Ratio Circulante** `current_ratio`: Evalúa la capacidad de cubrir deudas a corto plazo con activos líquidos.
 * **Deuda sobre Capital** `debt_to_equity`: Es el indicador directo del apalancamiento financiero. 
-* **Tracción**: `quarterly_revenue_growth`: Mide la variación porcentual de ventas entre trimestres consecutivos. 
+* **Tracción** `quarterly_revenue_growth`: Mide la variación porcentual de ventas entre trimestres consecutivos. 
 * **Capitalización de Mercado** `market_cap`: Indica el valor total de la empresa en bolsa.
 * **Tasa de crecimiento** `quarterly_revenue_growth`: Mide la variación porcentual de ventas entre trimestres consecutivos.
 
@@ -33,6 +33,10 @@ Calcula ratios financieros y métricas de crecimiento a partir de los estados co
 `GET /news/{ticker}`
 
 Recupera en tiempo real noticias vinculadas al símbolo bursátil. Devulve una colección `latest_headline` donde cada noticia contiene:
+
+* `title`: Titular de la noticia.
+
+
 
 ## ⚡ Ejuctar el servicio
 

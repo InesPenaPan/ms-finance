@@ -41,23 +41,19 @@ Recupera en tiempo real noticias vinculadas al símbolo bursátil. Devulve una c
 * `publish_date`: Fecha y hora de publicación.
 * `thumbnail_url`: Enlace a la imagen destacada (si está disponible).
 
-## ⚡ Ejuctar el servicio
+## ⚡ Ejecución
 
-### Pasos
-
-1. **Situarse en el Directorio**: Abre tu terminal y navega hasta el directorio raíz del proyecto.
-
-2. **Construir e iniciar**: Ejecuta el siguiente comando. La instrucción `--build` garantiza que tu imagen se construya con el código más reciente antes de iniciar el contenedor.
+Navega hasta el directorio raíz del proyecto y ejecuta el siguiente comando en tu terminal:
 
 ```bash
 docker compose up --build -d
 ```
-3. **Acceder a la API**: El microservicio estará accesible en el puerto `8080` (definido en el docker-compose.yml). Utiliza tu navegador o una herramienta como cURL o Postman para realizar las siguientes peticiones:
+Una vez levantado el contenedor, la API estará disponible en el puerto `8080`. Puedes verificar el funcionamiento realizando peticiones a través de tu navegador, cURL o Postman:
 
 | Endpoint | URL Ejemplo |
 | :--- | :--- |
-| Ratios Financieros | `http://127.0.0.1:8000/finance/AAPL` |
-| Noticias | `http://127.0.0.1:8000/news/AAPL` |
+| Análisis de Ratios y Performance | `http://127.0.0.1:8000/finance/AAPL` |
+| Agregación de Noticas en Tiempo Real | `http://127.0.0.1:8000/news/AAPL` |
 
 ### Ejemplos de Tickers
 

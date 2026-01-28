@@ -59,6 +59,21 @@ Una vez levantado el contenedor, la API estará disponible en el puerto `8080`. 
 
 ## 📂 Estructura del Proyecto
 
+```bash
+.
+├── models/
+│   ├── model_finance.py       # Esquemas de datos para métricas financieras
+│   └── model_news.py          # Esquemas de datos para noticias
+├── .gitignore                 # Archivos excluidos del control de versiones
+├── calculate_ratios.py        # Lógica de cálculo de indicadores financieros
+├── docker-compose.yml         # Orquestación del contenedor
+├── Dockerfile                 # Configuración de la imagen Docker
+├── main.py                    # Punto de entrada de la API (FastAPI)
+├── README.md                  # Documentación del proyecto
+├── requirements.txt           # Dependencias del sistema
+└── retrieve_news.py           # Servicio de extracción de noticias
+```
+
 
 
 

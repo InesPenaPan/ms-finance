@@ -3,6 +3,17 @@
 
 Microservicio construido con **FastAPI** que automatiza la ingesta y procesamiento de datos de Yahoo! Finance (`yfinance`). El sistema calcula indicadores clave de solvencia, liquidez y apalancamiento de empresas cotizadas, además de monitorizar el crecimiento de ingresos trimestrales y agregar noticias bursátiles en tiempo real.
 
+## 🚀 Stack 
+El microservicio está desarrollado con las siguientes tecnologías y librerías clave:
+
+* `FastAPI`: Framework principal utilizado para construir la API, seleccionado por su alto rendimiento y soporte nativo para programación asíncrona.
+* `uvicorn`: Servidor ASGI de alta velocidad encargado de ejecutar la aplicación.
+* `pydantic`: Utilizado para la validación de datos y la gestión de esquemas mediante modelos de Python.
+* `yfinance`: Librería encargada de la extracción de datos financieros y de mercado desde la API de Yahoo! Finance.
+* `NumPy`: Soporte para el procesamiento eficiente de grandes estructuras de datos y cálculos numéricos.
+* `py-eureka-client`: Cliente para la integración con **Netflix Eureka**, permitiendo el registro y descubrimiento del microservicio dentro de la arquitectura distribuida del proyecto.
+
+
 
 ## 💻 Funcionalidades Principales
 

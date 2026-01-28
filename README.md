@@ -1,6 +1,8 @@
 # 💰 Microservicio de Finanzas
+**Repositorio integrante del Trabajo de Fin de Máster (TFM)** > **Programa:** Máster en Sistemas de Software Inteligentes e Interactivos (MSSSI)
 
-Este microservicio ofrece una API cosntruida con **FastAPI** para obtener y calcular métricas financieras clave, ratios de liquidez y solvencia, y noticias bursátiles recientes utilizando `yfinance` como fuente de datos.
+Microservicio construido con **FastAPI** que automatiza la ingesta y procesamiento de datos de Yahoo! Finance (`yfinance). El sistema calcula indicadores clave de solvencia, liquidez y apalancamiento de empresas cotizadas, además de monitorizar el crecimiento de ingresos trimestrales y agregar noticias bursátiles en tiempo real.
+
 
 ## 💻 Funcionalidades Principales
 

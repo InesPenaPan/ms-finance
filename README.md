@@ -32,9 +32,7 @@ Calcula ratios financieros y métricas de crecimiento a partir de los estados co
 
 `GET /news/{ticker}`
 
-
-
-Este endpoint recupera los titulares de noticias más recientes directamente desde la fuente para un símbolo bursátil específico.
+Recupera en tiempo real noticias vinculadas al símbolo bursátil.
 
 ## ⚡ Ejuctar el servicio
 

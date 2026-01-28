@@ -19,17 +19,10 @@ El microservicio está desarrollado con las siguientes tecnologías y librerías
 
 `GET /finance/{ticker}`
 
+Calcula ratios financieros y métricas de crecimiento a partir de los estados contables de la entidad.
 
 
 
-
-
-
-
-
-### 1. Obtener Ratios Financieros y Crecimiento (`/finance/{ticker}`)
-
-Este endpoint procesa la información de los estados financieros de una empresa, para ofrecer métricas comparativas:
 
 #### Liquidez y Solvencia
 

@@ -55,16 +55,9 @@ Una vez levantado el contenedor, la API estará disponible en el puerto `8080`. 
 | Análisis de Ratios y Performance | `http://127.0.0.1:8000/finance/AAPL` |
 | Agregación de Noticas en Tiempo Real | `http://127.0.0.1:8000/news/AAPL` |
 
-### Ejemplos de Tickers
+**Nota:** Puedes buscar los símbolos bursátiles (ej: NVDA, TSLA, SAN.MC) en [Yahoo! Finance](https://finance.yahoo.com/).
 
-Utiliza los siguientes símbolos bursátiles para probar tu API:
 
-| Ticker | Empresa |
-| :--- | :--- |
-| **AAPL** | Apple Inc. |
-| **MSFT** | Microsoft Corp. |
-| **BBVA.MC** | Banco Bilbao Vizcaya Argentaria |
-| **SAN.MC** | Banco Snatander |
-| **ITX.MC** | Industria de Diseño Textil (Inditex) |
-| **IBE.MC** | Iberdrola |
-| **TEF.MC** | Telefónica |
+
+
+

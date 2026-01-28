@@ -32,7 +32,7 @@ Calcula ratios financieros y métricas de crecimiento a partir de los estados co
 
 `GET /news/{ticker}`
 
-Recupera en tiempo real noticias vinculadas al símbolo bursátil.
+Recupera en tiempo real noticias vinculadas al símbolo bursátil. Devulve una colección `latest_headline` donde cada noticia contiene:
 
 ## ⚡ Ejuctar el servicio
 

@@ -15,7 +15,7 @@ El microservicio está desarrollado con las siguientes tecnologías y librerías
 
 ## 🌐 Endpoints
 
-### 1. Análisis de Ratios y Performance
+### Análisis de Ratios y Performance
 
 `GET /finance/{ticker}`
 
@@ -23,21 +23,26 @@ Calcula ratios financieros y métricas de crecimiento a partir de los estados co
 
 #### Liquidez y solvencia
 
-* **Liquidez**: `current_ratio` mide la solvencia inmediata sin depender de inventarios.  y `quick_ratio` evalúa la capacidad de cubrir deudas a corto plazo con activos líquidos. 
-* **Estrcutura de capital**: `debt_to_equity` es el indicador directo del apalancamiento financiero. 
-* **Valoración de mercado**: `market_cap` indica el valor total de la empresa en bolsa.
+* **Ratio Rápido** `current_ratio`: Mide la solvencia inmediata sin depender de inventarios.
+* **Ratio Circulante** `current_ratio`: Evalúa la capacidad de cubrir deudas a corto plazo con activos líquidos.
+* **Deuda sobre Capital** `debt_to_equity` es el indicador directo del apalancamiento financiero. 
+
+
 * **Tracción**: `quarterly_revenue_growth` mide la variación porcentual de ventas entre trimestres consecutivos. 
-
-
 
 #### Performance
 
-* **Capitalización de Mercado** `market_cap`: Es el valor total de las acciones en circulación de la empresa en el mercado.
+* **Capitalización de Mercado** `market_cap`: Indica el valor total de la empresa en bolsa.
 
-#### Crecimiento
-* **Tasa de crecimiento** `quarterly_revenue_growth`: Mide el cambio porcentual en los ingresos totales (Total Revenue) de una empresa de un trimestre al trimestre inmediatamente anterior. Es el indicador clave de si el negocio está acelerando o desacelerando su capacidad para generar ventas.
+#### Tracción
+* **Tasa de crecimiento** `quarterly_revenue_growth`: Mide la variación porcentual de ventas entre trimestres consecutivos.
 
-### 2. Obtener Noticias Bursátiles (`/news/{ticker}`)
+
+### Agregación de Noticas en Tiempo Real
+
+`GET /news/{ticker}`
+
+
 
 Este endpoint recupera los titulares de noticias más recientes directamente desde la fuente para un símbolo bursátil específico.
 

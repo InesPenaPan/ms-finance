@@ -57,6 +57,8 @@ Una vez levantado el contenedor, la API estará disponible en el puerto `8080`. 
 
 **Nota:** Puedes buscar los símbolos bursátiles (ej: NVDA, TSLA, SAN.MC) en [Yahoo! Finance](https://finance.yahoo.com/).
 
+## 📂 Estructura del Proyecto
+
 
 
 
